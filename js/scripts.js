@@ -17,6 +17,7 @@ $(document).ready(function() {
 	}, {
 		offset: '75%'
 	});
+    
 
 	/***************** Initiate Flexslider ******************/
 	$('.flexslider').flexslider({
@@ -48,7 +49,25 @@ $(document).ready(function() {
 	});
 
 	/***************** Header BG Scroll ******************/
-
+    $(document).ready(function() {
+ 
+  $("#owl-demo").owlCarousel({
+ 
+      navigation : false, // Show next and prev buttons
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      singleItem:true
+ 
+      // "singleItem:true" is a shortcut for:
+      // items : 1, 
+      // itemsDesktop : false,
+      // itemsDesktopSmall : false,
+      // itemsTablet: false,
+      // itemsMobile : false
+ 
+  });
+ 
+});
 	
 	/***************** Smooth Scrolling ******************/
 

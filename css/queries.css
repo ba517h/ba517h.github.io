@@ -5,9 +5,15 @@
 
 /* Responsive nav kicks in */
 @media screen and (max-width:1400px) {
+	.a2
+	{
+		margin-top: 0px!important;
+		margin-bottom: 0px!important;
+		border-top: 1px solid #000;
+	}
 	header {
 		width: 100%;
-		padding-left: 25px; 
+		padding-left: 15px; 
 	}
 
 	.hero .hero-content {
@@ -219,27 +225,16 @@
 	footer .footer-links {
 		margin: 120px 0 120px 0;
 	}
-	.a2
-	{
-		position: absolute;
-		top: 35%;
-		right: 35%;
-	}
-	.a3
-	{
-		font-size: 45px;
-		color: #000;
-	    font-family: 'Ubuntu Mono', monospace; 
-	}
-	.a4
-	{
-        text-align: center;
-		color: #000;
-		font-size: 19px;
-	}
+	  #a3 {display: block!important;}
+    #a4 {display: none!important;}
+	
 }
 
 	@media screen and (max-width:640px) {
+	
+    #a3 {display: none!important;}
+    #a4 {display: block!important;}
+
 		footer ul.footer-group {
 			border-top: none;
 		}
@@ -259,18 +254,7 @@
 		footer .footer-links {
 			margin: 50px 0 50px 0;
 		}
-		.a2
-	{
-		position: absolute;
-		top: 25%;
-		right: 12%;
-	}
-	.a3
-	{
-		font-size: 45px;
-		color: #000;
-	    font-family: 'Ubuntu Mono', monospace; 
-	}
+	
 
 	}
 
@@ -331,31 +315,9 @@
 		.down-arrow {
 			display: none;
 		}
-     	.a2
-		{
-			position: absolute;
-			top: 25%;
-			right: 15%;
-		}
-		.a3
-		{
-			font-size:39px;
-			color: #000;
-		    font-family: 'Ubuntu Mono', monospace; 
-		}
+     	
 	}
 
 	@media screen and (max-width:320px) {
-		.a2
-		{
-			position: absolute;
-			top: 35%;
-			right: 15%;
-		}
-		.a3
-		{
-			font-size:32px;
-			color: #000;
-		    font-family: 'Ubuntu Mono', monospace; 
-		}
+	
 	}
