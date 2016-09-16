@@ -5,6 +5,8 @@
 
 /* Responsive nav kicks in */
 @media screen and (max-width:1400px) {
+	
+	
 	.a2
 	{
 		margin-top: 0px!important;
@@ -227,10 +229,80 @@
 	}
 	  #a3 {display: block!important;}
     #a4 {display: none!important;}
-	
+
+    .a6
+    {
+    	min-height: 700px;
+    	background: url("hero.jpg") center center;
+  background-size: cover;
+    }
+    .a9
+    {
+    	position: relative;
+    	top: 15px;
+    }
+    .a10
+    {   
+
+    	width: 240px;
+    	height: 240px;
+    	display: block;
+    	margin:0 auto;
+    }
+    
+   .a11
+   {
+ 
+   	text-align: center;
+   	background-color: #0d0c0d;
+   	
+   	width: 100%;
+   	padding-top: 25px;
+   }
+   .a12
+   {
+   	text-transform: none;
+   	opacity: 0.5;
+   	font-size: 20px;
+   	color: white;
+
+   }
+   .a13
+   {
+   	position: absolute;
+   	bottom:60px;
+   }
+   .a15
+   {
+   	position: relative;
+   	top:30px;
+   }
+   .a14
+   {
+   	text-align: left;
+   	font-family: 'Dosis', sans-serif;
+   	color: #fff;
+   	opacity: 0.65;
+   	font-size: 20px;
+   	line-height: 25px;
+   }
+   .a17
+   {
+   	color: #000;
+   	margin:5px;
+   }
 }
 
 	@media screen and (max-width:640px) {
+		.a16
+		{
+			min-height: 860px;
+		}
+
+		.a7
+		{
+			height: 300px;
+		}
 	
     #a3 {display: none!important;}
     #a4 {display: block!important;}
