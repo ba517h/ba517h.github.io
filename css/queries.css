@@ -402,8 +402,8 @@ figure.snip1321.hover:after {
 }
 .a29
 { 
-	position: relative;
-	left:45%;
+	position: relative;	
+    margin: 0 auto!important; 
 	top: -23px;
 	background-color: #fff;
 	opacity: 0.5;
@@ -435,12 +435,11 @@ figure.snip1321.hover:after {
 
 
 	@media screen and (max-width:640px) {
-		.a33
+		.a34
 		{
-			position: relative;
-			left: 35%!important;
-
-		}
+			
+    margin: 0 auto!important; 
+}
 		.a25
 		{
 			width: 340px!important;
@@ -503,11 +502,13 @@ figure.snip1321.hover:after {
     	    margin:0 auto!important;
 
 		}
-		
-		.a33
+
+		.a34
 		{
-			position: relative;
-			left: 31%!important;
+			
+    margin: 0 auto!important; 
+}
+
 
 		}
 		.hero .hero-content {
