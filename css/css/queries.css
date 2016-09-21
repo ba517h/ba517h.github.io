@@ -436,7 +436,7 @@ figure.snip1321.hover:after {
 		.a33
 		{
 			position: relative;
-			left: 35%;
+			left: 35%!important;
 
 		}
 		.a25
