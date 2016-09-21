@@ -427,6 +427,7 @@ figure.snip1321.hover:after {
 @media screen and (min-width:650px) {
 .a30
 {
+	font-size:19px;
 	padding-left: 55px;
 	padding-right: 55px;
 	line-height: 30px;
