@@ -433,6 +433,12 @@ figure.snip1321.hover:after {
 
 
 	@media screen and (max-width:640px) {
+		.a33
+		{
+			position: relative;
+			left: 35%;
+
+		}
 		.a25
 		{
 			width: 340px!important;
