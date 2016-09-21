@@ -397,14 +397,16 @@ figure.snip1321.hover:after {
     font-family: 'Dosis', sans-serif;
 
 	font-size: 40px;
-	color: #d55050;
+	color: #fff;
+	opacity: 0.5;
 }
 .a29
 { 
 	position: relative;
 	left:45%;
 	top: -23px;
-	background-color: #d55050;
+	background-color: #fff;
+	opacity: 0.5;
 	width: 60px;
 	height: 2px;
 }
@@ -436,7 +438,7 @@ figure.snip1321.hover:after {
 		.a33
 		{
 			position: relative;
-			left: 35%;
+			left: 35%!important;
 
 		}
 		.a25
@@ -458,7 +460,7 @@ figure.snip1321.hover:after {
 
 		.a16
 		{
-			min-height: 860px;
+			min-height: 880px;
 		}
 
 		.a7
@@ -493,6 +495,21 @@ figure.snip1321.hover:after {
 	}
 
 	@media screen and (max-width:480px) {
+		.a26
+		{
+			width: 260px!important;
+			height: auto!important;
+			display: block!important;
+    	    margin:0 auto!important;
+
+		}
+		
+		.a33
+		{
+			position: relative;
+			left: 31%!important;
+
+		}
 		.hero .hero-content {
 			padding-top: 41%;
 		}
